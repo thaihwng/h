@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html>
-  
-<head>
-  <title>!</title>
-  <meta charset="UTF-8">
- </head>
-<body>
-  <h2>Hello world</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2f3fb" />
+    <title>Thai Hung</title>
+    <meta
+      name="description"
+      content="A one-page personal about me website built using HTML, CSS, and JavaScript."
+    />
+    <meta
+      name="keywords"
+      content="Personal portfolio, Thai Hung, Developer portfolio"
+    />
+    <meta name="author" content="Thai Hung" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/style/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!----Picture and name---->
+        <div class="picture">
+          <img
+            src="assets/profile-picture.webp"
+            alt="Thai Hung's photo"
+          />
+        </div>
+        <!--On loading name effect-->
+        <div class="name" translate="no">
+         <span><span>Thai</span></span> <span><span>Hung</span></span>
+        </div>
+
+        <!----Few personal detail---->
+        <!--more details button-->
+        <div class="info-box">
+          About me
+          <div class="toggle" onclick="vibrate()">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <!--details-->
+          <div>
+            <br />
+            <div class="details">
+              <ul>
+                <li class="about">
+                  Hello, I’m Thai Hung. I am a web developer and multimedia enthusiast. 
+                  I was born and raised in Vietnam, and I enjoy creating websites, videos, 
+                  and memes. I believe learning should be fun, so I always aim to blend humor 
+                  into my work, whether it's in coding or creative projects.
+                  <br /><br />
+                  Feel free to reach out to me through social media or email!
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!----Social media buttons---->
+        <div class="social-media">
+          <a href="mailto:thaihung@example.com">
+            <div><i class="fa-solid fa-envelope"></i>Email</div>
+          </a>
+          <a href="https://www.facebook.com/thaihung"
+            ><div><i class="fa-brands fa-facebook-f"></i>Facebook</div>
+          </a>
+          <a href="https://instagram.com/thaihung"
+            ><div><i class="fa-brands fa-instagram"></i>Instagram</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
